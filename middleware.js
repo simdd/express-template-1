@@ -1,7 +1,7 @@
 // 中间件文件约定位于根目录下 middleware.js 或 middleware.ts
 // 导出方法如下：
 export function middleware(context) {
-  // const { request, next, redirect, rewrite } = context;
+  const { request, next, redirect, rewrite } = context;
   
   // const urlInfo = new URL(request.url);
   // 重定向
